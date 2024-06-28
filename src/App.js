@@ -1,11 +1,10 @@
 import './App.css';
+import Matrix from './components/matrix/matrix';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>hello everyone today</p>
-      </header>
+      <Matrix />
     </div>
   );
 }
